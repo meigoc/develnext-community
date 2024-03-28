@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Документация - Документация - DevelNext Hub</title>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/darcula.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="//wiki.meigo.net/bootstrap.min.css" />
+    <!-- <link rel="stylesheet" href="/assets/bootstrap/themes/lumen.css" /> -->
+    
+    <link rel="stylesheet" href="//wiki.meigo.net/font-awesome.min.css" />
+
+    <link rel='stylesheet' href='//wiki.meigo.net/main.css' />
+
+    <!-- jquery -->
+    <script src="//wiki.meigo.net/jquery-3.2.1.min.js"></script>
+    <script src="//wiki.meigo.net/jquery-migrate-3.0.0.min.js"></script>
+
+    <!-- bootstrap js -->
+    <script src="//wiki.meigo.net/bootstrap.min.js"></script>
+
+    <script src="//wiki.meigo.net/main.js"></script>
+
+        <link rel='stylesheet' href='//wiki.meigo.net/wiki.css'/>
+</head>
+<body class="wrap page">
+    <div id="root">
+            <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <span class="navbar-brand">
+                    <small>Сообщество</small>
+                    <a href="/">DevelHub</a>
+                </span>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    
+
+<li class="">
+    <a href="/projects/list/all"><i class="fa fa-cubes" aria-hidden="true"></i> Проекты</a>
+</li>
+
+<li class="active">
+    <a href="/wiki"><i class="fa fa-book" aria-hidden="true"></i> Документация</a>
+</li>
+
+<li class="">
+    <a href="/repo"><i class="fa fa-building" aria-hidden="true"></i> JPPM Пакеты</a>
+</li>
+
+<li>
+    <a href="https://vk.com/develnextstudio" target="_blank"><i class="fa fa-vk" style="color: #4c82ed" aria-hidden="true"></i> VK группа</a>
+</li>                </ul>
+
+                <div class="navbar-right">
+                    
+<div id="loginPopup" class="modal fade auth-component" tabindex="-1" role="dialog" style="display: none;">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Авторизация</h4>
+            </div>
+            <div class="modal-body">
+                <div class="status"></div>
+                <form>
+                    <div class="input-group">
+                        <span class="input-group-addon" id="sizing-addon1">Email</span>
+                        <input type="text" name="login" class="form-control" placeholder="Введите ваш email" aria-describedby="sizing-addon1">
+                    </div>
+                    <br />
+                    <div class="input-group">
+                        <span class="input-group-addon" id="sizing-addon1">Пароль</span>
+                        <input type="password" name="password" class="form-control" placeholder="Введите ваш пароль" aria-describedby="sizing-addon1">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer" style="text-align: left;">
+                <button type="button" class="btn btn-success submit">Войти</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Отмена</button>
+            </div>
+        </div>
+    </div>
+</div>
+                    <!--<ul class="nav navbar-nav">
+                        <li><a href="/account/register">Регистрация</a></li>
+                        <li><button style="margin-top: 5px;" class="btn btn-success act-login" data-toggle="modal" data-target="#loginPopup">Войти</button></li>
+                    </ul>-->
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="content">
+            
+            
+                <div class="col-xs-12 wiki">
+        <div class="row">
+            <div class="col-xs-8">
+                <form action="/wiki/" name="searchForm" method="get">
+                    <div class="form-group">
+                        <span class="input-group">
+                            <span class="input-group-btn"><button type="submit" class="btn btn-primary">Найти</button></span>
+                            <input type="text" name="q" value=""
+                                   placeholder="Поиск по документации..."
+                                   id="query" class="form-control">
+                        </span>
+                    </div>
+                    <hr>
+                </form>
+
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="welcome-block">
+                                                        <a href="https://github.com/jphp-compiler/develnext-wiki/edit/master/README.md"
+                               style="display: inline-block; float: right; font-size: 1em;"><small>[редактировать]</small>
+                            </a>
+                            
+                                <h1><a href="#документация" id="документация">Документация</a></h1>
+<p>Справочник содержит рецепты и ответы на многие вопросы по DevelNext, PHP и JPHP.</p>
+<pre><code class="language-php">echo &quot;Welcome to $DevelNext&quot;;
+</code></pre>
+<h3><a href="#php-api" id="php-api"><a href="/wiki/PHP-API">PHP API</a></a></h3>
+<p>Описание стандартных классов и функций в php и jphp. <a href="/wiki/PHP-API">Читать подробнее</a>.</p>
+<h3><a href="#gui-api" id="gui-api"><a href="/wiki/API">GUI API</a></a></h3>
+<p>Реестр всех основных классов, описание их методов и свойств. <a href="/wiki/API">Читать подробнее</a>.</p>
+<hr />
+<h1><a href="#редактирование-документации" id="редактирование-документации">Редактирование документации</a></h1>
+<p>Вся документация написана с помощью Markdown языка разметки, все исходники документации хранятся в репозитории <a href="https://github.com/jphp-compiler/develnext-wiki">https://github.com/jphp-compiler/develnext-wiki</a>.</p>
+<p>Документация автоматически обновляется при обновлении её репозитория, а это означает, что у каждого есть возможность внести свои изменения в неё через систему pull-request'ов на github.com, вы также можете добавлять новые статьи.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                                    <div class="sidebar">
+                        <h2><a href="#php-api" id="php-api"><a href="/wiki/PHP-API">PHP API</a></a></h2>
+<blockquote>
+<p>Описание стандартных классов и функций php.</p>
+</blockquote>
+<h1><a href="#api" id="api"><a href="/wiki/API">API</a></a></h1>
+<blockquote>
+<p><a href="/wiki/UXNode">UXNode</a>, <a href="/wiki/UXList">UXList</a>, <a href="/wiki/UXImage">UXImage</a>, <a href="/wiki/UXColor">UXColor</a>, <a href="/wiki/UXScreen">UXScreen</a>, <a href="/wiki/UXTooltip">UXTooltip</a>, <a href="/wiki/UXFont">UXFont</a>, <a href="/wiki/API"><strong>Все классы</strong></a>.</p>
+</blockquote>
+<h1><a href="#faq" id="faq">F.A.Q.</a></h1>
+<ul>
+<li><a href="/wiki/faq/IDE">IDE, Среда</a></li>
+<li><a href="/wiki/faq/DevelNext-Migration">Переход с DevelStudio</a></li>
+<li><a href="/wiki/faq/GameMaker-Migration">Переход с GameMaker</a></li>
+<li><a href="/wiki/faq/PHP-Language">Язык PHP</a></li>
+<li><a href="/wiki/faq/FileSystem">Файловая система</a></li>
+<li><a href="/wiki/faq/DateTime">Дата и время</a></li>
+<li><a href="/wiki/faq/UI-Design">UI, Дизайн</a></li>
+<li><a href="/wiki/faq/JavaFX-CSS">JavaFX CSS</a></li>
+<li><a href="/wiki/faq/Games">Игры и развлечения</a></li>
+<li><a href="/wiki/faq/Network">Интернет и сети</a></li>
+<li><a href="/wiki/faq/Multimedia">Аудио и видео</a></li>
+<li><a href="/wiki/faq/System">Системные утилиты</a></li>
+<li><a href="/wiki/faq/Launchers">Лаунчеры и оболочки</a></li>
+<li><a href="/wiki/faq/Databases">SQL, Базы данных</a></li>
+<li><a href="/wiki/faq/Misc">Разное</a></li>
+</ul>
+<hr />
+<h1><a href="#earth-api" id="earth-api"><a href="/wiki/Earth-API">Earth API</a></a></h1>
+<blockquote>
+<p>REST Api для различных задач.</p>
+</blockquote>
+                    </div>
+                            </div>
+        </div>
+    </div>
+
+        </div>
+
+    </div><!-- /.container -->
+    </div>
+
+        <link rel="stylesheet" href="/assets/highlight/styles/darcula.css">
+    <script src='/assets/highlight/highlight.pack.js'></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</body>
+</html>
